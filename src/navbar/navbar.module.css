@@ -1,0 +1,171 @@
+.input{
+    width: 60vw;
+    height: 36px;
+    border-radius: 32px 0px 0px 32px;
+    margin-left: 20%;
+    border: 2px solid gainsboro;
+}
+
+.search{
+    width: 80px;
+    height: 42px;
+    border-left: 0px;    
+    background-color: gainsboro;
+    border: 1px solid gainsboro;
+    border-radius: 0px 32px 32px 0px;
+}
+
+.voiceBag{
+    height: 45px;
+    width: 60px;
+    border-radius: 30px;
+    border: none;
+    margin-left: 8px;
+}
+
+.upload{
+    height: 30px;
+    width: 30px;
+    margin-top: 8px;
+}
+
+.notification{
+    height: 30px;
+    width: 30px;
+    margin-left: 16px;
+    margin-top: 8px;
+}
+
+.voice{
+    height: 20px;
+    width: 20px;
+}
+
+.icon{
+    height: 20px;
+    width: 10px;
+}
+
+.profile{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 16px;
+    margin-top: 8px;
+}
+
+.flexUploadNoti{
+    margin-top: 8px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 120px;
+}
+
+.flexpar{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexSearchVoice{
+    display: flex;
+}
+
+.mainPar{
+    display: flex;
+    flex-direction: column;
+}
+
+.sideBarParent{
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.sidebar{
+    width: 36%;
+}
+
+.sidebarClick{
+    width: 90%;
+    margin:0px 15px;
+}
+
+.pngShape{
+    height: 20px;
+    width: 20px;
+    margin: 10px 10px; 
+    cursor: pointer;
+    border-radius: 8px ;
+}
+
+.sideButtons{
+    height: 20px;
+    width: 20px;
+    margin: 10px 10px; 
+    cursor: pointer;
+}
+
+.webName{
+    padding-right: 8px;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+.logoYt{
+    width: 80px;
+    height: 50px;
+}
+
+.name{
+    font-size: 10px;
+    margin-top: -8px;
+    font-weight: 600;
+}   
+
+.nameClick{
+    font-size: 16px;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+} 
+
+.innerFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerFlexClick{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+.innerFlexClick:hover , .innerFlex:hover{
+    background-color: beige;
+    border-radius: 8px;
+}
+
+.parent{
+    display: flex;
+}
+
+.FlexPar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+ align-items: center;
+}
+
+.ytLogo{
+    height: 40px;
+    width: 50px;
+    margin: 8px 0px 8px 32px;
+}
+

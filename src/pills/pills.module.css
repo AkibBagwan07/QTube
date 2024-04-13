@@ -1,0 +1,32 @@
+.pills{
+    margin:0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.pillsChild{
+    border: 1px solid gainsboro;
+    padding: 4px;
+    border-radius: 8px ;
+    width: 80px;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+}
+
+.pillAll{
+    border: 1px solid gainsboro;
+    padding: 4px;
+    border-radius: 8px ;
+    width: 50px;
+    background-color: black;
+    opacity: 0.6;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,75 @@
+.sideBarParent{
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.sidebar{
+    width: 250px;
+    margin-left: 16px;
+    margin-right: 24px;
+}
+
+.sidebarClick{
+    width: 400px;
+    margin:0px 15px;
+}
+
+.pngShape{
+    height: 20px;
+    width: 20px;
+    margin: 10px 10px; 
+    cursor: pointer;
+    border-radius: 8px ;
+}
+
+.sideButtons{
+    height: 20px;
+    width: 20px;
+    margin: 10px 10px; 
+    cursor: pointer;
+}
+
+.webName{
+    padding-right: 8px;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+.logoYt{
+    width: 80px;
+    height: 50px;
+}
+
+.name{
+    font-size: 10px;
+    margin-top: -8px;
+}   
+
+.nameClick{
+    font-size: 16px;
+} 
+
+.innerFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerFlexClick{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+.innerFlexClick:hover , .innerFlex:hover{
+    background-color: beige;
+    border-radius: 8px;
+}
+
+.parent{
+    display: flex;
+}
